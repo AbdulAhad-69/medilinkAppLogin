@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<androidx.coordinatorlayout.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    tools:context=".userDashBoard">
+
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#57F45D">
+        android:theme="@style/ThemeOverlay.Material3.Dark.ActionBar"
+        app:elevation="0dp">
 
-        <androidx.appcompat.widget.Toolbar
+        <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="#06ED10"/>
+            android:background="@color/primary_500"
+            app:title="MediLink"
+            app:titleTextColor="@color/white"
+            app:titleTextAppearance="@style/TextAppearance.MedilinkAppLogin.TitleLarge"
+            app:navigationIcon="@drawable/baseline_menu_24"
+            app:navigationIconTint="@color/white"
+            app:menu="@menu/toolbar_menu" />
 
     </com.google.android.material.appbar.AppBarLayout>
-    <include layout="@layout/content_main"/>
 
-</LinearLayout>
+    <include layout="@layout/content_main" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,7 +1,47 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.MedilinkAppLogin" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <!-- Primary brand colors -->
+        <item name="colorPrimary">@color/primary_200</item>
+        <item name="colorOnPrimary">@color/primary_900</item>
+        <item name="colorPrimaryContainer">@color/primary_800</item>
+        <item name="colorOnPrimaryContainer">@color/primary_100</item>
+        
+        <!-- Secondary brand colors -->
+        <item name="colorSecondary">@color/secondary_200</item>
+        <item name="colorOnSecondary">@color/secondary_900</item>
+        <item name="colorSecondaryContainer">@color/secondary_800</item>
+        <item name="colorOnSecondaryContainer">@color/secondary_100</item>
+        
+        <!-- Tertiary brand colors -->
+        <item name="colorTertiary">@color/tertiary_200</item>
+        <item name="colorOnTertiary">@color/tertiary_900</item>
+        <item name="colorTertiaryContainer">@color/tertiary_800</item>
+        <item name="colorOnTertiaryContainer">@color/tertiary_100</item>
+        
+        <!-- Error colors -->
+        <item name="colorError">@color/error_200</item>
+        <item name="colorOnError">@color/error_900</item>
+        <item name="colorErrorContainer">@color/error_800</item>
+        <item name="colorOnErrorContainer">@color/error_100</item>
+        
+        <!-- Surface colors -->
+        <item name="colorSurface">@color/neutral_900</item>
+        <item name="colorOnSurface">@color/neutral_100</item>
+        <item name="colorSurfaceVariant">@color/neutral_800</item>
+        <item name="colorOnSurfaceVariant">@color/neutral_300</item>
+        
+        <!-- Background colors -->
+        <item name="colorBackground">@color/neutral_900</item>
+        <item name="colorOnBackground">@color/neutral_100</item>
+        
+        <!-- Outline colors -->
+        <item name="colorOutline">@color/neutral_600</item>
+        <item name="colorOutlineVariant">@color/neutral_700</item>
+        
+        <!-- Status bar and navigation bar -->
+        <item name="android:statusBarColor">@color/neutral_900</item>
+        <item name="android:navigationBarColor">@color/neutral_900</item>
+        <item name="android:windowLightStatusBar">false</item>
     </style>
 </resources>
