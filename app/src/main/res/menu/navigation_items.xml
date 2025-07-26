@@ -1,16 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:id="@+id/optNotes"
-        android:title="Notes"
-        android:icon="@drawable/baseline_notes_24"/>
-    <item
-        android:id="@+id/optHome"
-        android:title="Home"/>
-    <item
-        android:id="@+id/optGallary"
-        android:title="Gallary"/>
-    <item
-        android:id="@+id/optSetting"
-        android:title="Setting"/>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/optHome"
+            android:title="Home"
+            android:icon="@android:drawable/ic_menu_home" />
+        <item
+            android:id="@+id/optBloodSearch"
+            android:title="Blood Donors"
+            android:icon="@drawable/ic_blood_drop" />
+        <item
+            android:id="@+id/optMedicineSearch"
+            android:title="Medicine Search"
+            android:icon="@drawable/ic_medicine" />
+        <item
+            android:id="@+id/optPrescription"
+            android:title="Prescriptions"
+            android:icon="@drawable/ic_prescription" />
+    </group>
+    
+    <group android:id="@+id/group_secondary">
+        <item
+            android:id="@+id/optNotes"
+            android:title="My Notes"
+            android:icon="@drawable/baseline_notes_24" />
+        <item
+            android:id="@+id/optProfile"
+            android:title="Profile"
+            android:icon="@drawable/baseline_account_circle_24" />
+        <item
+            android:id="@+id/optSettings"
+            android:title="Settings"
+            android:icon="@android:drawable/ic_menu_preferences" />
+        <item
+            android:id="@+id/optLogout"
+            android:title="Logout"
+            android:icon="@android:drawable/ic_menu_close_clear_cancel" />
+    </group>
 </menu>

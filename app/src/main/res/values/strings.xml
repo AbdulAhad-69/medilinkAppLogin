@@ -1,7 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">medilinkAppLogin</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="OpenDrawer">Open navigation drawer</string>
-    <string name="CloseDrawer">Close navigation drawer</string>
+    <string name="app_name">Medilink</string>
+    <string name="app_subtitle">Your Health, Our Priority</string>
+    
+    <!-- Login & Auth -->
+    <string name="welcome_back">Welcome Back</string>
+    <string name="sign_in_continue">Sign in to continue</string>
+    <string name="create_account">Create Account</string>
+    <string name="join_medilink">Join Medilink for better healthcare</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Create Account</string>
+    <string name="no_account">Don\'t have an account? Sign Up</string>
+    <string name="have_account">Already have an account? Sign In</string>
+    
+    <!-- Home -->
+    <string name="welcome_medilink">Welcome to Medilink</string>
+    <string name="health_companion">Your health companion for blood donation and medicine search</string>
+    <string name="quick_blood_search">Quick Blood Search</string>
+    <string name="enter_blood_group">Enter blood group (e.g., A+, B-, O+)</string>
+    <string name="search_donors">Search Donors</string>
+    <string name="services">Services</string>
+    <string name="medicine_search">Medicine Search</string>
+    <string name="find_medicines">Find medicines and alternatives</string>
+    <string name="upload_prescription">Upload Prescription</string>
+    <string name="scan_prescriptions">Scan and analyze prescriptions</string>
+    <string name="emergency">Emergency</string>
+    <string name="health_tips">Health Tips</string>
+    
+    <!-- Medicine Search -->
+    <string name="enter_medicine_name">Enter medicine name</string>
+    <string name="search_medicine">Search Medicine</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="generic_medicines">Generic Medicines</string>
+    <string name="popular_medicines">Popular Medicines</string>
+    <string name="recent_searches">Recent Searches</string>
+    <string name="no_recent_searches">No recent searches</string>
+    
+    <!-- Navigation -->
+    <string name="home">Home</string>
+    <string name="blood_donors">Blood Donors</string>
+    <string name="prescriptions">Prescriptions</string>
+    <string name="my_notes">My Notes</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    
+    <!-- Blood Groups -->
+    <string-array name="blood_groups">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
 </resources>
