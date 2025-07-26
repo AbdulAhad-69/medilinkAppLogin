@@ -1,38 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="176dp"
+    android:layout_height="200dp"
     android:orientation="vertical"
-    android:background="#11E419"
+    android:background="@drawable/bg_gradient_primary"
     android:gravity="bottom"
-    android:padding="15dp">
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/baseline_account_circle_24"
-        android:contentDescription="Header Image"/>
+    android:padding="24dp">
+    
+    <!-- Profile Image -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="4dp">
+        
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/baseline_account_circle_24"
+            android:scaleType="centerCrop"
+            android:contentDescription="Profile Image" />
+            
+    </com.google.android.material.card.MaterialCardView>
+    
+    <!-- User Name -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Md Robi"
         android:id="@+id/headerName"
-        android:textSize="24sp"
-        android:textStyle="bold"/>
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="4dp" />
+        
+    <!-- User Email -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="mailrobi1998@gmail.com"
         android:id="@+id/headerEmail"
         android:textSize="14sp"
-        android:textStyle="bold"/>
+        android:textColor="@color/primary_blue_light"
+        android:layout_marginBottom="2dp" />
+        
+    <!-- User Phone -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="01516050514"
         android:id="@+id/headerPhone"
         android:textSize="14sp"
-        android:textStyle="bold"/>
-
+        android:textColor="@color/primary_blue_light" />
 
 </LinearLayout>
