@@ -1,16 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:id="@+id/optNotes"
-        android:title="Notes"
-        android:icon="@drawable/baseline_notes_24"/>
-    <item
-        android:id="@+id/optHome"
-        android:title="Home"/>
-    <item
-        android:id="@+id/optGallary"
-        android:title="Gallary"/>
-    <item
-        android:id="@+id/optSetting"
-        android:title="Setting"/>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_medicine_search"
+            android:icon="@drawable/baseline_medication_24"
+            android:title="Medicine Search" />
+
+        <item
+            android:id="@+id/nav_blood_donation"
+            android:icon="@drawable/baseline_bloodtype_24"
+            android:title="Blood Donation" />
+
+        <item
+            android:id="@+id/nav_prescription"
+            android:icon="@drawable/baseline_camera_alt_24"
+            android:title="Upload Prescription" />
+
+    </group>
+
+    <item android:title="Health Services">
+        <menu>
+            <item
+                android:id="@+id/nav_emergency"
+                android:icon="@drawable/baseline_emergency_24"
+                android:title="Emergency Contacts" />
+
+            <item
+                android:id="@+id/nav_health_tips"
+                android:icon="@drawable/baseline_health_and_safety_24"
+                android:title="Health Tips" />
+
+            <item
+                android:id="@+id/nav_pharmacies"
+                android:icon="@drawable/baseline_local_pharmacy_24"
+                android:title="Nearby Pharmacies" />
+
+        </menu>
+    </item>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/baseline_account_circle_24"
+                android:title="My Profile" />
+
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/baseline_settings_24"
+                android:title="Settings" />
+
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/baseline_help_24"
+                android:title="Help &amp; Support" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/baseline_logout_24"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
 </menu>
